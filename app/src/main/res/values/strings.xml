@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">TrailBuddy</string>
+    <string name="title_activity_login">Login to TrailBuddy</string>
+    <string name="title_activity_main">Welcome to TrailBuddy</string>
+    <string name="login">Login with your Google account</string>
+    <string name="logout">Logout</string>
+    <string name="account">Account</string>
+    <string name="compass">Compass</string>
+    <string name="trail_image">Trail Image</string>
+    <string name="trail_map">Trail Map</string>
+
+    <string name="compass_dial" translatable="false">Compass Dial</string>
+    <string name="compass_hands" translatable="false">Compass Hands</string>
+
+    <string name="sotw_north">N</string>
+    <string name="sotw_east">E</string>
+    <string name="sotw_south">S</string>
+    <string name="sotw_west">W</string>
+    <string name="sotw_northeast">NE</string>
+    <string name="sotw_northwest">NW</string>
+    <string name="sotw_southeast">SE</string>
+    <string name="sotw_southwest">SW</string>
+    <string name="title_activity_trail_reviews">TrailReviewsActivity</string>
+
+    <string name="action_reviews">Reviews</string>
+    <string name="action_notes">Notes</string>
+    <string name="add_note">Add Note</string>
+    <string name="save_note">Save</string>
+    <string name="review">Review</string>
+    <string name="save_review">Post New Review</string>
+    <string name="submit_feedback"><u>Submit Feedback</u></string>
+</resources>

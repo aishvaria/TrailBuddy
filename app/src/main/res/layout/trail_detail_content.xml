@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/trail_detail_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightYellow"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_margin"
+    android:visibility="gone">
+
+    <ImageView
+        android:id="@+id/trail_detail_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/trail_image" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightYellow"
+        android:orientation="vertical"
+        android:padding="@dimen/layout_margin">
+
+        <TextView
+            android:id="@+id/trail_detail_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_margin" />
+
+        <TextView
+            android:id="@+id/trail_detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/trail_detail_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_margin" />
+
+        <TextView
+            android:id="@+id/trail_detail_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_margin" />
+
+        <TextView
+            android:id="@+id/trail_detail_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <TextView
+            android:id="@+id/trail_detail_stars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <TextView
+            android:id="@+id/trail_detail_alt_low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <TextView
+            android:id="@+id/trail_detail_alt_high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_margin" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/trail_detail_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/trail_map" />
+</LinearLayout>

@@ -1,0 +1,53 @@
+<!--
+MIT License
+
+Copyright (c) 2017 Viacheslav Iutin
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/layout_margin"
+    tools:context=".compass.CompassActivity">
+
+    <ImageView
+        android:id="@+id/main_image_dial"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/compass_dial"
+        android:src="@drawable/dial" />
+
+    <ImageView
+        android:id="@+id/main_image_hands"
+        android:layout_width="20dp"
+        android:layout_height="240dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/compass_hands"
+        android:scaleType="fitXY"
+        android:src="@drawable/hands" />
+
+    <TextView
+        android:id="@+id/sotw_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
